@@ -37,10 +37,10 @@ router.post("/", (req, res) => {
     .then((tag) => {
       // if there's product tags, we need to create pairings to bulk create in the ProductTag model
       if (req.body.proTagIds.length && req.body.proTagIds) {
-        const productTagIdArr = req.body.proTagIds.map((productTag_id) => {
+        const productTagIdArr = req.body.proTagIds.map((product_id) => {
           return {
-            productTag_id: tag.id,
-            productTag_id,
+            tag_id: tag.id,
+            product_id,
           };
         });
         return ProductTag.bulkCreate(productTagIdArr);
