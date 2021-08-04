@@ -62,17 +62,17 @@ From there start your server by typing in the command line:
 nodemon server
 ```
 
-You can no access Postman or Isomniac to perform a GET, POST, UPDATE, and DELETE on each of the apis. Make sure to use the URLs of http://localhost:3001/api/categories/ , http://localhost:3001/api/products/ , http://localhost:3001/api/tags/ . You may also enter a number after the last forward slash to access a certain id of the api.
+You can no access Postman or Isomnia to perform a GET, POST, UPDATE, and DELETE on each of the apis. Make sure to use the URLs of http://localhost:3001/api/categories/ , http://localhost:3001/api/products/ , http://localhost:3001/api/tags/ . You may also enter a number after the last forward slash to access a certain id of the api for each model.
 
 Below are a couple GIFs demostrating the functionality of the application:
 
 VSCode step:
 
-![ECommerce VSCode Usage Screenshot](public/assets/gif/screenshot.gif)
+![ECommerce VSCode Usage Screenshot](/assets/gif/vscode-screenshot.gif)
 
-Postman/Insomniac step:
+Postman/Insomnia step:
 
-![Ecommerce Postman Usage Screenshot](public/assets/gif/screenshot.gif)
+![Ecommerce Postman Usage Screenshot](/assets/gif/postman-screenshot.gif)
 
 ## Contribution
 
